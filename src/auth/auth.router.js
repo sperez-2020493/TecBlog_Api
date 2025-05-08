@@ -22,3 +22,123 @@ router.post(
 )
 
 export default router
+
+/**
+ * @swagger
+ * tags:
+ *   name: Auth
+ *   description: Endpoints para la autenticación de usuarios.
+ */
+
+/**
+ * @swagger
+ * /auth/register:
+ *   post:
+ *     summary: Registrar un nuevo usuario.
+ *     tags: [Auth]
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         multipart/form-data:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               name:
+ *                 type: string
+ *                 description: Nombre del usuario.
+ *               surname:
+ *                 type: string
+ *                 description: Apellido del usuario.
+ *               username:
+ *                 type: string
+ *                 description: Nombre de usuario único.
+ *               email:
+ *                 type: string
+ *                 description: Correo electrónico único del usuario.
+ *               password:
+ *                 type: string
+ *                 description: Contraseña del usuario.
+ *               phone:
+ *                 type: string
+ *                 description: Número de teléfono del usuario (8 dígitos).
+ *               profilePicture:
+ *                 type: string
+ *                 format: binary
+ *                 description: Imagen de perfil del usuario.
+ *             required:
+ *               - name
+ *               - surname
+ *               - username
+ *               - email
+ *               - password
+ *               - phone
+ *     responses:
+ *       201:
+ *         description: Usuario registrado exitosamente.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 message:
+ *                   type: string
+ *                   example: "User has been created"
+ *                 name:
+ *                   type: string
+ *                   example: "Juan"
+ *                 email:
+ *                   type: string
+ *                   example: "juan.perez@example.com"
+ *       500:
+ *         description: Error interno al registrar el usuario.
+ */
+
+/**
+ * @swagger
+ * /auth/login:
+ *   post:
+ *     summary: Iniciar sesión con un usuario existente.
+ *     tags: [Auth]
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               email:
+ *                 type: string
+ *                 description: Correo electrónico del usuario.
+ *               username:
+ *                 type: string
+ *                 description: Nombre de usuario.
+ *               password:
+ *                 type: string
+ *                 description: Contraseña del usuario.
+ *             required:
+ *               - password
+ *     responses:
+ *       200:
+ *         description: Inicio de sesión exitoso.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 message:
+ *                   type: string
+ *                   example: "Login successful"
+ *                 userDetails:
+ *                   type: object
+ *                   properties:
+ *                     token:
+ *                       type: string
+ *                       description: Token JWT del usuario.
+ *                     profilePicture:
+ *                       type: string
+ *                       description: Imagen de perfil del usuario.
+ *       400:
+ *         description: Credenciales inválidas.
+ *       500:
+ *         description: Error interno al iniciar sesión.
+ */
