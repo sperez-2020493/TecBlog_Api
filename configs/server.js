@@ -7,7 +7,32 @@ import morgan from "morgan"
 import { dbConnection } from "./mongo.js"
 import apiLimiter from "../src/middlewares/validar-cant-peticiones.js"
 import authRoutes from "../src/auth/auth.router.js"
+import postRoutes from "../src/post/post.routes.js"
+import commentRoutes from "../src/comment/comment.routes.js"
+import swaggerUi from "swagger-ui-express"
+import swaggerJsDoc from "swagger-jsdoc";
 
+const swaggerDefinition = {
+    openapi: "3.0.0",
+    info: {
+        title: "TecBlog API Documentation",
+        version: "1.0.0",
+        description: "Documentación de la API para BackWarehouse",
+    },
+    servers: [
+        {
+            url: `http://localhost:${process.env.PORT || 3001}`,
+            description: "Servidor local",
+        },
+    ],
+};
+
+const swaggerOptions = {
+    swaggerDefinition,
+    apis: ["./src/**/*.routes.js"], 
+};
+
+const swaggerSpec = swaggerJsDoc(swaggerOptions);
 
 const middlewares = (app) => {
     app.use(express.urlencoded({extended: false}))
@@ -16,17 +41,16 @@ const middlewares = (app) => {
     app.use(helmet())
     app.use(morgan("dev"))
     app.use(apiLimiter)
+
+    app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+
 }
 
 
 const routes = (app) =>{
     app.use("/TecBlog/v1/auth", authRoutes)
-    //app.use("/api/usuarios", usuariosRoutes)
-    //app.use("/api/roles", rolesRoutes)
-    //app.use("/api/medicos", medicosRoutes)
-    //app.use("/api/hospitales", hospitalesRoutes)
-    //app.use("/api/uploads", uploadsRoutes)
-    //app.use("/api/buscar", buscarRoutes)
+    app.use("/TecBlog/v1/post", postRoutes)
+    app.use("/TecBlog/v1/comment", commentRoutes)
 }
 
 
@@ -47,6 +71,7 @@ export const initiServer = () => {
        routes(app)
         app.listen(process.env.PORT)
         console.log(`Server running on port ${process.env.PORT}`)
+        console.log(`Swagger docs available at http://localhost:${process.env.PORT}/api-docs`);
     }catch(err){
         console.log(`Server init failed: ${err}`)
     }

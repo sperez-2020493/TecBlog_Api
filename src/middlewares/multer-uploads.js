@@ -31,4 +31,5 @@ const createMulterConfig = (destinationFolder) => {
 }
 
 export const uploadProfilePicture = createMulterConfig("../../public/uploads/profile-picture")
+export const uploadPostPicture = createMulterConfig("../../public/uploads/post-picture")
 
