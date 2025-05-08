@@ -7,7 +7,8 @@ import morgan from "morgan"
 import { dbConnection } from "./mongo.js"
 import apiLimiter from "../src/middlewares/validar-cant-peticiones.js"
 import authRoutes from "../src/auth/auth.router.js"
-
+import postRoutes from "../src/post/post.routes.js"
+import commentRoutes from "../src/comment/comment.routes.js"
 
 const middlewares = (app) => {
     app.use(express.urlencoded({extended: false}))
@@ -21,12 +22,8 @@ const middlewares = (app) => {
 
 const routes = (app) =>{
     app.use("/TecBlog/v1/auth", authRoutes)
-    //app.use("/api/usuarios", usuariosRoutes)
-    //app.use("/api/roles", rolesRoutes)
-    //app.use("/api/medicos", medicosRoutes)
-    //app.use("/api/hospitales", hospitalesRoutes)
-    //app.use("/api/uploads", uploadsRoutes)
-    //app.use("/api/buscar", buscarRoutes)
+    app.use("/TecBlog/v1/post", postRoutes)
+    app.use("/TecBlog/v1/comment", commentRoutes)
 }
 
 
