@@ -17,7 +17,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODFjM2Q2YTM2ODhlNTAyYWJhMjg0ZWIiLCJpYXQiOjE3NDY2ODEyMTAsImV4cCI6MTc0NjY4NDgxMH0.iuAzmuOHoXnsp3TgcqXMcwfNeaTXX1LfLI0ImEBBZJ8",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODFjM2Q2YTM2ODhlNTAyYWJhMjg0ZWIiLCJpYXQiOjE3NDY2ODI4NjIsImV4cCI6MTc0NjY4NjQ2Mn0.2TbJ80nEPTRspBLeOetNq5Kn6UEyJWUV35TuGbenqAw",
 									"type": "string"
 								}
 							]
@@ -74,7 +74,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODFjMWE3MTc2MWVjN2UxNjU0YTk4OGUiLCJpYXQiOjE3NDY2NzIzMTQsImV4cCI6MTc0NjY3NTkxNH0.RGvwRIKwgwMrYTTb6mUDc0m_HaZovQvoYDbrhzdaiCU",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODFjM2Q2YTM2ODhlNTAyYWJhMjg0ZWIiLCJpYXQiOjE3NDY2ODI4NjIsImV4cCI6MTc0NjY4NjQ2Mn0.2TbJ80nEPTRspBLeOetNq5Kn6UEyJWUV35TuGbenqAw",
 									"type": "string"
 								}
 							]
@@ -102,12 +102,12 @@
 								{
 									"key": "postPicture",
 									"type": "file",
-									"src": "/C:/Users/David Perez/Downloads/Post.jpg"
+									"src": "/C:/Users/David Perez/Downloads/post2.jpg"
 								}
 							]
 						},
 						"url": {
-							"raw": "http://localhost:3001/TecBlog/v1/post/edit/681c20d8177fb743eeb4ae2c",
+							"raw": "http://localhost:3001/TecBlog/v1/post/edit/681c44097f17b954425c5610",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -118,7 +118,7 @@
 								"v1",
 								"post",
 								"edit",
-								"681c20d8177fb743eeb4ae2c"
+								"681c44097f17b954425c5610"
 							]
 						}
 					},
@@ -375,6 +375,43 @@
 						"v1",
 						"auth",
 						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "userMe",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/TecBlog/v1/user/me",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"TecBlog",
+						"v1",
+						"user",
+						"me"
 					]
 				}
 			},
