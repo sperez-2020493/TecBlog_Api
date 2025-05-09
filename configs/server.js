@@ -6,11 +6,13 @@ import helmet from "helmet"
 import morgan from "morgan"
 import { dbConnection } from "./mongo.js"
 import apiLimiter from "../src/middlewares/validar-cant-peticiones.js"
-import authRoutes from "../src/auth/auth.router.js"
+import authRoutes from "../src/auth/auth.routes.js"
 import postRoutes from "../src/post/post.routes.js"
 import commentRoutes from "../src/comment/comment.routes.js"
+import userRoutes from "../src/user/user.routes.js"
 import swaggerUi from "swagger-ui-express"
 import swaggerJsDoc from "swagger-jsdoc";
+
 
 const swaggerDefinition = {
     openapi: "3.0.0",
@@ -51,6 +53,7 @@ const routes = (app) =>{
     app.use("/TecBlog/v1/auth", authRoutes)
     app.use("/TecBlog/v1/post", postRoutes)
     app.use("/TecBlog/v1/comment", commentRoutes)
+    app.use("/TecBlog/v1/user", userRoutes)
 }
 
 

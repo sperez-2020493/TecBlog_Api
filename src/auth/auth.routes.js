@@ -91,6 +91,17 @@ export default router
  *                   example: "juan.perez@example.com"
  *       500:
  *         description: Error interno al registrar el usuario.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 message:
+ *                   type: string
+ *                   example: "User registration failed"
+ *                 error:
+ *                   type: string
+ *                   example: "Error details here"
  */
 
 /**
@@ -139,6 +150,28 @@ export default router
  *                       description: Imagen de perfil del usuario.
  *       400:
  *         description: Credenciales inválidas.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 message:
+ *                   type: string
+ *                   example: "Credenciales invalidas"
+ *                 error:
+ *                   type: string
+ *                   example: "No existe el usuario o correo ingresado"
  *       500:
  *         description: Error interno al iniciar sesión.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 message:
+ *                   type: string
+ *                   example: "Login failed, server error"
+ *                 error:
+ *                   type: string
+ *                   example: "Error details here"
  */
