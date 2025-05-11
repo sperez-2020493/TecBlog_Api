@@ -1,0 +1,345 @@
+[{
+  "_id": {
+    "$oid": "6821081055be2fea5af90a30"
+  },
+  "title": "Laboratorio # 1 - página web",
+  "description": "Se desarrollaron tres páginas HTML con sus respectivos archivos CSS. La primera página presenta un tema de interés personal, donde se explica por qué resulta atractivo, el tiempo dedicado a esta actividad y otros datos relevantes. La segunda página contiene una breve biografía, acompañada de las expectativas académicas para el año, el tiempo estimado de estudio y las habilidades que se desea adquirir. Finalmente, la tercera página es un rediseño completo del sitio web del colegio Kinal, respetando los colores y textos originales, pero sin utilizar su código fuente. Al final de esta vista se justifica cómo el nuevo diseño mejora en atractivo y funcionalidad respecto al original.    ENLACE DE DESCARGA: https://cetkinal-my.sharepoint.com/:u:/g/personal/sperez-2020493_kinal_edu_gt/EYzCQJaOWBNNtrBcv2aBPmgBr7ANdOdJzAXeU0vyRnUg0Q?e=Rxt3Yj",
+  "course": "TALLER III",
+  "createdBy": {
+    "$oid": "681c43149883eb6f439544d5"
+  },
+  "postPicture": "lab1_Bim1.jpg",
+  "likes": 0,
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6821081055be2fea5af90a31"
+  },
+  "title": "Laboratorio # 2 - Adición de funcionalidades",
+  "description": "En el Laboratorio #2 se desarrollaron tres páginas HTML con sus respectivos archivos de estilo CSS, cumpliendo con los lineamientos establecidos. Cada vista fue diseñada para reflejar distintas funcionalidades del sistema. Se implementaron las operaciones básicas requeridas: actualización de datos específicos (UPDATE), cambio de contraseña por parte del usuario (UPDATE_PASSWORD), eliminación de registros (DELETE) y la opción para agregar citas o encuentros (ADD_APPOINTMENT). Todas las funcionalidades fueron integradas de manera efectiva, permitiendo una experiencia interactiva y dinámica. El diseño mantiene una estructura clara y adaptable a posibles cambios futuros en los requerimientos. ENLACE DE GITHUB: https://github.com/sperez-2020493/Lab2-Taller",
+  "course": "TALLER III",
+  "createdBy": {
+    "$oid": "681c43149883eb6f439544d5"
+  },
+  "postPicture": "noFoto.jpg",
+  "likes": 0,
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6821081055be2fea5af90a32"
+  },
+  "title": "Laboratorio # 3 - análisis de caso COPEREX",
+  "description": "En el Laboratorio #3 se desarrolló una API backend utilizando Node.js, Express y MongoDB para gestionar el registro de empresas en la feria \"Interfer\" de COPEREX. La API incluye varias funcionalidades: inicio de sesión exclusivo para administradores, registro de empresas con campos como nivel de impacto, años de trayectoria y categoría empresarial, visualización de empresas con opciones de filtrado, ordenamiento y edición de datos, y generación de reportes en formato Excel. Se implementaron medidas de seguridad y autenticación para garantizar que solo los administradores pudieran acceder al sistema y gestionar la información de las empresas de manera segura. La solución fue entregada dentro del plazo establecido, cumpliendo con los requerimientos. ENLACE DE GITHUB: https://github.com/sperez-2020493/COPEREX",
+  "course": "TALLER III",
+  "createdBy": {
+    "$oid": "681c43149883eb6f439544d5"
+  },
+  "postPicture": "noFoto.jpg",
+  "likes": 0,
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6821081055be2fea5af90a33"
+  },
+  "title": "Proyecto bimestral bim. I",
+  "description": "El proyecto bimestral consiste en el desarrollo de una API web en NodeJS para gestionar el registro de ventas, productos y operaciones comerciales de una empresa. Se divide en dos secciones: administrador y cliente.\nAdministrador: Gestiona productos (agregar, visualizar, editar, eliminar), categorías (crear, modificar, eliminar), usuarios (agregar, editar, eliminar, cambiar roles) y facturas (editar, validar stock, visualizar detalles).\nCliente: Incluye autenticación, exploración de productos, gestión de carrito, proceso de compra, historial de compras, gestión de perfil y eliminación de cuenta. Todo está respaldado por MongoDB y requiere autenticación para acceso. ENLACE DE GIHUB: https://github.com/sperez-2020493/Proyecto-Bimestral---Tienda-virtual",
+  "course": "TALLER III",
+  "createdBy": {
+    "$oid": "681c43149883eb6f439544d5"
+  },
+  "postPicture": "tiendaVirtual.jpg",
+  "likes": 0,
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6821081055be2fea5af90a34"
+  },
+  "title": "Laboratorio # 4 - Ejercicios de JavaScript",
+  "description": "En el Laboratorio #4, se resolvieron 8 ejercicios de lógica en HackerRank utilizando JavaScript, distribuidos en 4 ejercicios fáciles, 2 medios y 2 difíciles. Para cada ejercicio, se siguieron las instrucciones específicas y se aplicaron buenas prácticas de programación, utilizando nombres descriptivos para variables y funciones, y organizando el código de manera limpia. Los ejercicios fueron probados exhaustivamente en la plataforma, verificando que las soluciones cumplieran con los requisitos y restricciones de tiempo y memoria. Se aplicaron mejoras y optimizaciones cuando fue necesario, especialmente en los ejercicios de nivel medio y difícil. ENLACE DE DESCARGA: https://cetkinal-my.sharepoint.com/:b:/g/personal/sperez-2020493_kinal_edu_gt/EUF95C8qGNtMqtKG8DqoEX0BV1TdXDAr5xsisF7pQj6eFg?e=PDs8V8",
+  "course": "TALLER III",
+  "createdBy": {
+    "$oid": "681c43149883eb6f439544d5"
+  },
+  "postPicture": "HackerRank.jpg",
+  "likes": 0,
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6821081055be2fea5af90a35"
+  },
+  "title": "Actividad # 1 - Infografía HTML, CSS, PreProcesadores",
+  "description": "En la Actividad #1 se elaboró una infografía individual que resume de forma clara y visual los principales conceptos relacionados con tecnologías de desarrollo web. La infografía fue diseñada en formato PNG/PDF, estructurada en secciones con subtítulos para cada tema: HTML5, CSS3, Flexbox, Bootstrap, preprocesadores CSS, LESS, SASS, PUG y JADE. Se utilizaron íconos, colores y gráficos para mejorar la comprensión, y se presentó la información de forma breve, precisa y visualmente atractiva, basada en fuentes confiables. ENLACE DE DESCARGA: https://cetkinal-my.sharepoint.com/:i:/g/personal/sperez-2020493_kinal_edu_gt/ETxIo7zBHQpEpOmcnd_mouQBDxggLeK8K5CTGO6oTfjT4w?e=mlzUQn",
+  "course": "TECNOLOGÍA III",
+  "createdBy": {
+    "$oid": "681c43149883eb6f439544d5"
+  },
+  "postPicture": "HTML_CSS.jpg",
+  "likes": 0,
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6821081055be2fea5af90a36"
+  },
+  "title": "Actividad # 2 - Mapa conceptual",
+  "description": "En la Actividad #2 se elaboró un mapa conceptual individual sobre tecnologías clave en el desarrollo web moderno. El trabajo fue entregado en formato imagen/PDF y presentó de forma clara y organizada la relación entre tecnologías como JavaScript, AJAX, MVVM, MVC, DenoJS, MeteorJS, NextJS, GraphQL y BackboneJS. Se utilizaron colores e íconos para distinguir categorías como lenguajes, frameworks y patrones de arquitectura. Las conexiones y jerarquías fueron representadas visualmente para facilitar la comprensión de cómo estas tecnologías interactúan y se complementan en el ecosistema web. ENLACE DE DESCARGA: https://cetkinal-my.sharepoint.com/:b:/g/personal/sperez-2020493_kinal_edu_gt/EWCtv87Pi-pGj1H0VIYMlLcBHfd6mhbFvCOvWQ2ADfnRPQ?e=y8EfDp",
+  "course": "TECNOLOGÍA III",
+  "createdBy": {
+    "$oid": "681c43149883eb6f439544d5"
+  },
+  "postPicture": "JavaScript_AJAX.jpg",
+  "likes": 0,
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6821081055be2fea5af90a37"
+  },
+  "title": "Actividad # 3 - Mapa mental",
+  "description": "En la Actividad #3 se desarrolló un mapa mental individual que presenta de forma clara y visual conceptos fundamentales del desarrollo web como Hosting, Dominio, Cliente-Servidor, Web Semántica, WebM, Canvas y W3C. El mapa fue entregado en formato imagen/PDF, utilizando colores, íconos y jerarquías para destacar categorías y relaciones entre temas. Se emplearon líneas y flechas para representar las conexiones, facilitando una comprensión simplificada y organizada del funcionamiento e interacción de estos conceptos en el entorno web. ENLACE DE DESCARGA: https://cetkinal-my.sharepoint.com/:b:/g/personal/sperez-2020493_kinal_edu_gt/ESAtpXf-T1FJigJDEtgZoocBU6vkVAgBl7yQwub4t8Wm9w?e=EigNwl",
+  "course": "TECNOLOGÍA III",
+  "createdBy": {
+    "$oid": "681c43149883eb6f439544d5"
+  },
+  "postPicture": "Desarrolloweb.jpg",
+  "likes": 0,
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6821081055be2fea5af90a38"
+  },
+  "title": "Actividad # 4 - Infografía beneficios React",
+  "description": "En la Actividad #4 se elaboró una infografía individual enfocada en destacar las principales ventajas de ReactJS. La presentación se realizó en formato PDF/imagen, cumpliendo con los lineamientos visuales y de organización establecidos. La infografía abordó temas como facilidad de uso, componentes reutilizables, rendimiento optimizado, SEO mejorado, soporte continuo por parte de Facebook y una comunidad activa. Se utilizaron íconos, colores y gráficos que facilitaron una lectura clara y atractiva. ENLACE DE DESCARGA: https://cetkinal-my.sharepoint.com/:b:/g/personal/sperez-2020493_kinal_edu_gt/ERpSzFFObypFm4ygpW1mCuEBKfNCAo8slGu3cKvNBrZeMA?e=pEqCW9",
+  "course": "TECNOLOGÍA III",
+  "createdBy": {
+    "$oid": "681c43149883eb6f439544d5"
+  },
+  "postPicture": "React.jpg",
+  "likes": 0,
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6821081055be2fea5af90a39"
+  },
+  "title": "Actividad # 5 - Propuesta de proyecto",
+  "description": "Se desarrolló en equipo una propuesta de proyecto aplicando la metodología SCRUM, estructurada en un documento digital PDF. El trabajo incluyó la definición de roles SCRUM, la planificación de sprints y la asignación de tareas iterativas. Se identificó un problema social relevante, se analizó su impacto y se propuso una solución basada en el Stack MERN (MongoDB, Express, React, Node.js). Se detallaron funcionalidades clave como registro de usuarios y visualización de información útil. Además, se presentó un cronograma tentativo, una justificación tecnológica y una evaluación del impacto social esperado. Finalmente, se incluyeron riesgos potenciales, recursos adicionales y un llamado a la acción para su aprobación. ENLACE DE DESCARGA: https://cetkinal-my.sharepoint.com/:b:/g/personal/sperez-2020493_kinal_edu_gt/EVroCAym8MpMnaD6jyKPBpQB4np-lrhMtPpt5SZusC5MUQ?e=Jyhnfw",
+  "course": "TECNOLOGÍA III",
+  "createdBy": {
+    "$oid": "681c43149883eb6f439544d5"
+  },
+  "postPicture": "trabajo.jpg",
+  "likes": 0,
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6821081055be2fea5af90a3a"
+  },
+  "title": "Actividad # 6 - Investigación APIs",
+  "description": "En la Actividad #6 se desarrolló una investigación individual estructurada bajo normas APA, con un mínimo de cuatro páginas de contenido. El documento abordó en profundidad los conceptos de API, REST, RESTful y las buenas prácticas en el desarrollo de APIs. Se explicó la diferencia entre estos términos, su funcionamiento y su relevancia en el desarrollo de software moderno. El trabajo incluyó introducción, desarrollo, conclusiones, recomendaciones y referencias bibliográficas formales. ENLACE DE DESCARGA: https://cetkinal-my.sharepoint.com/:b:/g/personal/sperez-2020493_kinal_edu_gt/EaTJ3ciHejVMoGcJZVbOgNIBMJNR55Jrii30DYguYAc-WA?e=kJXdZ3",
+  "course": "TECNOLOGÍA III",
+  "createdBy": {
+    "$oid": "681c43149883eb6f439544d5"
+  },
+  "postPicture": "Apis.jpg",
+  "likes": 0,
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6821081055be2fea5af90a3b"
+  },
+  "title": "Laboratorio # 1 - página web",
+  "description": "Se desarrollaron tres páginas HTML con sus respectivos archivos CSS. La primera página presenta un tema de interés personal, donde se explica por qué resulta atractivo, el tiempo dedicado a esta actividad y otros datos relevantes. La segunda página contiene una breve biografía, acompañada de las expectativas académicas para el año, el tiempo estimado de estudio y las habilidades que se desea adquirir. Finalmente, la tercera página es un rediseño completo del sitio web del colegio Kinal, respetando los colores y textos originales, pero sin utilizar su código fuente. Al final de esta vista se justifica cómo el nuevo diseño mejora en atractivo y funcionalidad respecto al original. ENLACE DE DESCARGA: https://cetkinal-my.sharepoint.com/:u:/g/personal/sperez-2020493_kinal_edu_gt/EYzCQJaOWBNNtrBcv2aBPmgBr7ANdOdJzAXeU0vyRnUg0Q?e=Rxt3Yj",
+  "course": "PRÁCTICA SUPERVISADA",
+  "createdBy": {
+    "$oid": "681c43149883eb6f439544d5"
+  },
+  "postPicture": "lab1_Bim1.jpg",
+  "likes": 0,
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6821081055be2fea5af90a3c"
+  },
+  "title": "Laboratorio # 2 - Adición de funcionalidades",
+  "description": "En el Laboratorio #2 se desarrollaron tres páginas HTML con sus respectivos archivos de estilo CSS, cumpliendo con los lineamientos establecidos. Cada vista fue diseñada para reflejar distintas funcionalidades del sistema. Se implementaron las operaciones básicas requeridas: actualización de datos específicos (UPDATE), cambio de contraseña por parte del usuario (UPDATE_PASSWORD), eliminación de registros (DELETE) y la opción para agregar citas o encuentros (ADD_APPOINTMENT). Todas las funcionalidades fueron integradas de manera efectiva, permitiendo una experiencia interactiva y dinámica. El diseño mantiene una estructura clara y adaptable a posibles cambios futuros en los requerimientos. ENLACE DE GITHUB: https://github.com/sperez-2020493/Lab2-Taller",
+  "course": "PRÁCTICA SUPERVISADA",
+  "createdBy": {
+    "$oid": "681c43149883eb6f439544d5"
+  },
+  "postPicture": "noFoto.jpg",
+  "likes": 0,
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6821081055be2fea5af90a3d"
+  },
+  "title": "Laboratorio # 3 - análisis de caso COPEREX",
+  "description": "En el Laboratorio #3 se desarrolló una API backend utilizando Node.js, Express y MongoDB para gestionar el registro de empresas en la feria \"Interfer\" de COPEREX. La API incluye varias funcionalidades: inicio de sesión exclusivo para administradores, registro de empresas con campos como nivel de impacto, años de trayectoria y categoría empresarial, visualización de empresas con opciones de filtrado, ordenamiento y edición de datos, y generación de reportes en formato Excel. Se implementaron medidas de seguridad y autenticación para garantizar que solo los administradores pudieran acceder al sistema y gestionar la información de las empresas de manera segura. La solución fue entregada dentro del plazo establecido, cumpliendo con los requerimientos. ENLACE DE GITHUB: https://github.com/sperez-2020493/COPEREX",
+  "course": "PRÁCTICA SUPERVISADA",
+  "createdBy": {
+    "$oid": "681c43149883eb6f439544d5"
+  },
+  "postPicture": "noFoto.jpg",
+  "likes": 0,
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6821081055be2fea5af90a3e"
+  },
+  "title": "Proyecto bimestral bim. I",
+  "description": "El proyecto bimestral consiste en el desarrollo de una API web en NodeJS para gestionar el registro de ventas, productos y operaciones comerciales de una empresa. Se divide en dos secciones: administrador y cliente.\nAdministrador: Gestiona productos (agregar, visualizar, editar, eliminar), categorías (crear, modificar, eliminar), usuarios (agregar, editar, eliminar, cambiar roles) y facturas (editar, validar stock, visualizar detalles).\nCliente: Incluye autenticación, exploración de productos, gestión de carrito, proceso de compra, historial de compras, gestión de perfil y eliminación de cuenta. Todo está respaldado por MongoDB y requiere autenticación para acceso. ENLACE DE GIHUB: https://github.com/sperez-2020493/Proyecto-Bimestral---Tienda-virtual",
+  "course": "PRÁCTICA SUPERVISADA",
+  "createdBy": {
+    "$oid": "681c43149883eb6f439544d5"
+  },
+  "postPicture": "tiendaVirtual.jpg",
+  "likes": 0,
+  "status": true,
+  "date": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T00:00:00.000Z"
+  }
+}]
