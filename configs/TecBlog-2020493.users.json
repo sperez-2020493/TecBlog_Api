@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "681c43149883eb6f439544d5"
+  },
+  "name": "Samuel",
+  "surname": "Perez",
+  "username": "sp",
+  "email": "sperez@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$nxSPNvg1RkNtttvJ6og0Hw$7PAoEqkIqXuHlALiv3qF9tktXpqpjqDACiu+oOqHmMg",
+  "profilePicture": "Usuario-1746682644172.png",
+  "phone": "45454545",
+  "role": "ADMIN_ROLE",
+  "status": true,
+  "likesTotal": 48,
+  "postsTotal": 11
+}]

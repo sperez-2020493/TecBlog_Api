@@ -27,6 +27,13 @@ El objetivo de la api es que sea eficiente y 100 porciento funcional.
   "password": "Admin/14"
 }
 ```
+## Data por defecto y endpoints
+
+Adentro de la carpeta configs esta la data por defecto y la coleccion de endpoints.
+- Blog.postman_collection.
+- TecBlog-2020493.comments.
+- TecBlog-2020493.posts.
+- TecBlog-2020493.users.
 
 ## 🚀 Tecnologías
 
